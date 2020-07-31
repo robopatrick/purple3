@@ -1,0 +1,883 @@
+/* custom webfonts */
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNova-BoldIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNova-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNova-RegularIt.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNova-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNova-BlackIt.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+body {
+    font-family: 'Cera Pro', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #002642;
+    background-color: #f6f9fc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.heading-font {
+    font-weight: 900;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.body-font {
+    font-family: 'Cera Pro', sans-serif;
+    font-weight: 300;  
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+.site-header {
+    position: absolute;
+    width: 100%;
+    top: 0; 
+}
+
+.main-navigation {
+    padding-top: 21px;
+    padding-bottom: 21px;
+    min-height: 85px;
+    font-weight: bold;
+}
+
+.main-navigation .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.cta-link {
+    border: 1.5px solid #fff;
+    color: #fff;
+    border-radius: 999px;
+    padding: 13px 17px 14px 16px;
+    line-height: 1;
+}
+
+.cta-link:hover {
+    color: #002642;
+    background: #fff;
+    text-decoration: none;
+}
+
+.hero-section .hero-section-outer {
+    min-height: 782px;
+    background: url(../images/hero-bg.svg) no-repeat bottom center;
+    background-size: cover;
+}
+
+.first--section {
+    padding-top: 185px;
+}
+
+.hero-section .hero-section-inner {
+
+}
+
+.hero-section .hero-section-content {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.hero-section .hero-section-content p:last-child {
+    margin-bottom: 0;
+}
+
+.hero-h5 {
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2.4px;
+    margin-bottom: 9px;
+    color: #E1C1FF;
+}
+
+.hero-h2 {
+    font-style: normal;
+    font-size: 52px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
+
+.hero-get-demo {
+    max-width: 370px;
+    margin: 58px auto 0 auto;
+    position: relative;
+}
+
+.hero-get-demo .form-control {
+    background: #FFFFFF;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #002642;
+    outline: 0;
+    border: 0;
+    padding: 15px 150px 15px 45px;
+    height: 54px;
+    box-shadow: 10px 11px 34px rgba(0, 0, 0, 0.2);
+}
+
+.hero-get-demo .btn-primary {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.btn-primary {
+    background: linear-gradient(146.42deg, #FD7006 30.85%, #FF9243 90.12%);
+    border-radius: 999px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 0;
+    outline: 0;
+    padding: 15px 28px;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #FD7006 30.85%, #FF9243 100%);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus{
+    outline:none;
+    box-shadow:none;
+}
+
+.hero-corp-image {
+    margin-bottom: -125px;
+    padding-top: 65px;
+    text-align: center;
+}
+
+.h-showcase {
+    padding-top: 185px;
+    padding-bottom: 116px;
+}
+
+.robo-platform-cover {
+    position: relative;
+    background: url(../images/robo-platform.svg) no-repeat center;
+    background-size: cover;
+    padding-bottom: calc((423 / 1440) * 100%);
+}
+
+.h-showcase h2 {
+    margin-bottom: 3px;
+}
+
+h2 {
+    color: #002642;
+    font-size: 46px;
+    line-height: 56px;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.platform-nav {
+    padding-top: 50px;
+}
+
+.platform-nav nav {
+    border-top: 1px solid rgba(0, 38, 66, 0.1);
+    max-width: 870px;
+    margin: 0 auto;
+}
+
+.platform-nav nav a {
+    display: block;
+    font-family: 'Proxima Nova', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 28px;
+    color: #002642;
+    padding-top: 7.5px;
+    position: relative;
+}
+
+.platform-nav nav a:hover {
+    text-decoration: none;
+}
+
+.platform-nav nav a:before {
+    content: '';
+    height: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    left: 0;
+    background-color: #4B1997;
+}
+
+.platform-nav nav a[aria-expanded="true"]:before {
+    height: 3px;
+}
+
+.platform-nav nav a[aria-expanded="false"] {
+    opacity: 0.5;
+}
+
+.robo-hub span {
+    color: #25d17c;
+}
+
+.robo-code span {
+    color: #FF5056;
+}
+
+.robo-cloud span {
+    color: #a844eb;
+}
+
+.platform-nav nav a .learn-more {
+    display: block;
+    font-weight: normal;
+    text-decoration-line: underline;
+    color: #4B1997;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.robo-content {
+    background: url(../images/bg-1.jpg) no-repeat left top;
+    background-size: cover;
+    padding: 160px 0 190px 0;
+    margin-top: 65px;
+    color: #fff;
+}
+
+.robo-content .hero-h5 {
+    color: #FFFFFF;
+}
+
+.hero-h3 {
+    font-family: 'Cera Pro', sans-serif;
+    font-weight: 300;
+    font-size: 31px;
+    line-height: 34px;
+}
+
+.btn-get-started {
+    background: #732EDC;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+    border-radius: 999px;
+    font-family: 'Cera Pro', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 10px 18px;
+}
+
+.btn-get-started:hover {
+    color: #732EDC;
+    background: #FFFFFF;
+}
+
+.robo-content .btn {
+    margin-top: 50px;
+}
+
+.list-feature {
+    padding-top: 100px;
+}
+
+.h-features {
+    padding-bottom: 80px;
+}
+
+.h-features .list-feature:first-child {
+    padding-top: 50px;
+}
+
+.list-feature .lf-desc .hero-h5 {
+    color: #002642;
+}
+
+.list-feature .lf-desc .hero-h3 {
+    font-size: 31px;
+    line-height: 38px;
+}
+
+.btn-get-started.btn-alt {
+    background: linear-gradient(151.97deg, #FD7006 30.85%, #FF9243 90.12%);
+    border: 2px solid transparent;
+    box-shadow: none;
+}
+
+.btn-get-started.btn-alt:hover {
+    text-decoration: none;
+    color: #fff;
+    border-color: #FF9243;
+    box-shadow: 0 0 0 0.2rem rgb(254 124 28 / 15%);
+}
+
+.btn-get-started:active:hover,
+.btn-get-started:active,
+.btn-get-started:focus,
+.btn-get-started:focus:hover {
+    text-decoration: none;
+}
+
+.list-feature .lf-desc p:last-child {
+    margin: 0;
+}
+
+.list-feature .lf-desc .btn-get-started {
+    margin-top: 30px;
+}
+
+.list-feature .ls-image {
+    text-align: center;
+}
+
+.h-powerful {
+    background: linear-gradient(180deg, #18212E 0%, #132640 100%);
+    color: rgba(255,255,255,0.7);
+}
+
+.h-pf-inner {
+    padding: 130px 0 110px;
+    background: url(../images/bg-2.svg) no-repeat center;
+    background-size: 100%;
+}
+
+.hpf-intro {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hpf-intro .hero-h5 {
+    color: #b0d3ff;
+}
+
+.hpf-intro .hero-h3 {
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.hpf-image {
+    padding-top: 60px;
+}
+
+.popular-content {
+    padding-top: 80px;
+}
+
+.popular-content .hero-h3 {
+    text-align: center;
+    color: #fff;
+}
+
+.rhub-title {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 900;
+    font-size: 31px;
+    line-height: 38px;
+}
+
+.rhub-title > span {
+    color: #25d17c;
+}
+
+.pc-cards {
+    margin: 0 auto;
+    max-width: 940px;
+}
+
+.mt50 {
+    margin-top: 54px;
+}
+
+.pc-cards .card {
+    color: rgba(0, 38, 66, 0.7);
+    border: 0;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.pc-cards .card p {
+    margin-bottom: 8px;
+}
+
+.pc-cards .card-title {
+    font-family: 'Cera Pro', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    margin-bottom: 5px;
+    color: #002642;
+    min-height: 52px;
+}
+
+.pc-cards .meta {
+    font-size: 12px;
+    line-height: 26px;
+    color: rgba(0, 38, 66, 0.5);
+}
+
+.pc-cards .card-body {
+    padding: 15px 18px 23px 18px;
+}
+
+.pc-cards .card-img-top {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.h-task {
+    background: linear-gradient(180deg, #8127E8 0%, #B135E3 100%);
+}
+
+.h-task .ht-inner {
+    background: url(../images/bg-mask.svg) no-repeat left top;
+    padding: 57px 0 59px;
+    min-height: 388px;
+}
+
+.ht-intro {
+    color: rgba(255,255,255,0.75);
+}
+
+.ht-intro .hero-h5 {
+    color: #fff;
+    margin-bottom: 7px;
+}
+
+.ht-intro .hero-h2 {
+    font-size: 46px;
+    line-height: 50px;
+    margin-bottom: 8px;
+}
+
+.cta-card {
+    background: rgba(2, 2, 2, 0.5);
+    border-radius: 10px;
+    padding: 40px 50px;
+    color: #fff;
+}
+
+.cta-card-content {
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(255,255,255,0.7);
+}
+
+.ms-icon {
+    background: url(../images/monkey-shape.png) no-repeat;
+}
+
+.cs-icon {
+    background: url(../images/cloud-icon.png) no-repeat;
+}
+
+.cta-card-content .icon-width-title h3 {
+    font-size: 23px;
+    line-height: 26px;
+    color: #fff;
+    padding-left: 64px;
+    min-height: 60px;
+}
+
+.cta-card-content .btn-get-started {
+    min-width: 124px;
+    line-height: 1.1;
+}
+
+.btn-outline {
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 999px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    padding: 10px 15px;
+    line-height: 1.1;
+    min-width: 164px;
+}
+
+.btn-outline:hover {
+    background: #fff;
+    color: #002642;
+    text-decoration: none;
+}
+
+.site-footer {
+    padding: 50px 0;
+}
+
+.site-footer .copyrights {
+    font-size: 14px;
+}
+
+.footer-links {
+    color: #002642;
+
+}
+
+.footer-links a {
+    color: #002642;
+}
+
+.footer-links .fl-col {
+    padding-bottom: 70px;
+}
+
+.footer-links .fl-col h4 {
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-links .fl-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+    font-size: 14px;    
+}
+
+.footer-links .fl-col ul li {
+    margin-bottom: 24px;
+}
+
+@media (min-width: 992px) {
+    .main-navigation .navbar-nav .nav-link {
+        padding-right: 45px;
+    }
+
+    .rp-col-1 {
+        max-width: 320px;
+    }
+
+    .fl-col {
+        width: 20%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (min-width: 1921px) {
+    .w1440 {
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .h-showcase {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .hero-section .hero-section-outer {
+        min-height: 640px;
+    }
+
+    .first--section {
+        padding-top: 120px;
+    }
+
+    .navbar-dark .navbar-toggler {
+        border-width: 2px;
+        border-color: #fff;
+        color: #fff;
+        padding: 0;
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+        outline: 0;
+    }
+
+    .main-navigation .navbar-nav {
+        background: #300a61;
+        text-align: center;
+        padding: 20px 0;
+        max-width: 200px;
+        margin-top: 15px;
+        border-radius: 10px;
+        box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    }
+
+    .h-showcase {
+        padding-top: 100px;
+        padding-bottom: 85px;
+    }
+
+    .robo-content {
+        padding: 80px 0;
+    }
+
+    .rp-col-1, .rp-col-2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .rp-col-2 {
+        margin-top: 50px;
+    }
+
+    .list-feature {
+        padding-top: 75px;
+        text-align: center;
+        max-width: 380px;
+        margin: 0 auto;
+    }
+
+    .lf-desc {
+        margin-top: 36px;
+    }
+
+    .footer-links .fl-col {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .hero-section .hero-section-outer {
+        min-height: 620px;
+    } 
+
+    .hero-section .hero-h2 {
+        font-size: 44px;
+        line-height: 1;
+    }
+
+    h2 {
+        font-size: 38px;
+        line-height: 1.2;
+    }
+
+    .platform-nav nav a {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .platform-nav nav a .learn-more {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .pc-cards .card {
+        max-width: 292px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .h-pf-inner {
+        background-size: auto;
+    }
+
+    .h-pf-inner {
+        padding: 85px 0;
+    }
+
+    .footer-links .fl-col {
+        width: 50%;
+        padding-bottom: 24px;
+    }
+
+    .cta-card-content {
+        margin-bottom: 40px;
+    }
+
+    .cta-card {
+        padding: 40px 24px 0 24px;
+    }
+
+    .cta-card-content .icon-width-title h3 {
+        display: inline-block;
+        text-align: left;
+    }
+
+    .robo-content {
+        margin-top: 24px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .platform-nav nav a {
+        font-size: 14px;
+        line-height: 1.25;
+    }
+
+    .platform-nav nav a .learn-more {
+        font-size: 12px;
+        line-height: 1;
+    }
+}
